@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button id="bt1"> Ẩn hiện </button>
+        <button id="bt2"> Ẩn thôi, không hiện </button>
+        <div style="width: 500px; height: 500px; background: green; margin-top: 10px">
+        </div>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script>
+        $("#bt1").click(function(){
+            $("div").toggle(100);
+            });
+        $("#bt2").click(function(){
+            $("div").hide(100);})
+    </script>
+    </body>
